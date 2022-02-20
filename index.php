@@ -8,15 +8,25 @@
     <p>Convertissez la valeur de vos cryptomonnaies dès maintenant. Que ce soit l'ETH ou le BTC, ce site vous permet de réaliser votre conversion selon les dernier taux du marché et en toute anonymité.</p>
     <p>Sélectionnez la partie du site qui vous intéresse ci-dessous.</p>
 
-<!-- Début du grid avec les boutons -->
-    <div class="col">
-      <h2>Cours du BTC aujourdhui :</h2>
-      <h3>33.500€</h3>
+<!-- Début du grid avec les 2 cartes -->
+<div class="row">
+    <div class="column">
+        <div class="carte">
+          <img src="../img/btc_logo.png">
+          <h2>Cours du BTC aujourdhui :</h2>
+          <h3>1 BTC = 33.500€</h3>
+          <a href="../content/btceur.php"><button class="button_acc"> Voir le convertisseur</button></a>
+        </div>
     </div>
-    <div class="col">
-      <h2>Cours de l'ETH aujourdhui :</h2>
-      <h3>2.650€</h3>
+    <div class="column">
+        <div class="carte">
+          <img src="../img/eth_logo.png">
+          <h2>Cours de l'ETH aujourdhui :</h2>
+          <h3>1 ETH = 2.650€</h3>
+          <a href="../content/etheur.php"><button class="button_acc"> Voir le convertisseur</button></a>
+        </div>
     </div>
+</div>
 
 <p>Le passage de Lorem Ipsum standard, utilisé depuis 1500
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

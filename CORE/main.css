@@ -8,34 +8,36 @@
 /*propriétés appliquées au footer*/
 
 footer{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  color:white;
   text-align:center;
   position:relative;
-  bottom:0px;
+  flex-shrink:0;
+  bottom:0;
+  background-color: hsl(210,8%,15%);
 }
 
-footer.col-footer{
+.col-footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.column{
+}
+
+.row{
   display:flex;
-  flex-direction:row;
-  width:100%;
-}
-
-.col1{
-  width:50%;
-  float:left;
-  background-color:yellow;
-  margin-left: auto;
-}
-
-.col2{
-  width:50%;
-  float:right;
-  background-color:green;
-  margin-left: auto;
+  justify-content:center;
 }
 
 .copyright {
   position:relative;
   bottom:0;
+  font-size:10px;
 }
 
 /*propriétés appliquées au header*/
@@ -46,6 +48,8 @@ header{
 .container-nav{
   height:100px;
   padding-top:5px;
+  border-bottom:1px solid grey;
+  border-radius: 10px;
 }
 
 .navbar-list{
@@ -59,20 +63,24 @@ header{
     box-sizing: border-box;
     padding : 20px;
     margin:2px;
-
 }
 
 .nav-item:hover{
-  border-left : 2px solid grey;
-  border-right: 2px solid grey;
+  border-left : 2px solid #4AD81C;
+  border-right: 2px solid #4AD81C;
+  background-color: #E8E8E8;
 }
 
-a.navbar-list{
+a{
   text-decoration:none;
 }
 
 a:hover{
-  border-bottom:solid green 2px;
+  border-bottom:solid #4AD81C 2px;
+}
+
+a:active{
+  border-bottom:solid #4AD81C 2px;
 }
 
 /*propriétés appliquées au body et contenants des diff pages*/
@@ -99,4 +107,30 @@ body{
 }
 .profile_pic{
   float:right;
+}
+
+.carte{
+  box-shadow:20px;
+  margin-left:15px;
+  margin-right:15px;
+  border:1px solid #E8E8E8;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15)!important;
+  text-align :center;
+  padding:10px;
+}
+
+.carte img{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+button{
+  background-color:#4AD81C;
+  color: white;
+  border-radius:5px;
+}
+
+.button_content{
+  padding:5px;
+  margin:15px;
 }

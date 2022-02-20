@@ -7,7 +7,7 @@
 
   <form>
   <input id="nombreBTC" type="number" placeholder="BTC">
-  <button btn-primary onclick="conversionbtceur()" >Convertir en €</button>
+  <button class="button_content" onclick="conversionbtceur()" >Convertir en €</button>
   </form>
 
 <p id="resultat"></p>
