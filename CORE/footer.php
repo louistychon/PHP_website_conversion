@@ -1,0 +1,17 @@
+<footer>
+    <div>
+        <div class="col_footer">
+          <div class="col1">
+            <p>Convertisseur de (crypto-)monnaies !</p>
+            <p>Convertissez la valeur de vos crypto-monnaies, simplement et facilement !</p>
+          </div>
+          <div class="col2">
+            <p>Contact</p>
+            <p>Rue Léon Théodore 223, 1090 Jette</p>
+            <p>louis.tychon1@gmail.com</p>
+            <p>0479606831</p>
+        </div>
+      </div>
+  <div class="copyright">© 2022 Copyright: Louis Tychon</div>
+</footer>
+</html>
