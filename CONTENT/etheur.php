@@ -7,11 +7,17 @@
 <script src = ../JS/convertetheur.js></script>
 
 <form>
-  <p>Combien voulez-vous convertir ?</p>
-  <input id="nombreETH" type="number" name="nombreETH" placeholder="ETH">
-  <button class="button_content" onclick="conversionetheur();return false;">Convertir en €</button>
-  <p>Résultat :</p>
-  <input id="resultat" type="text" name="resultat" placeholder="0.00" readonly="readonly">
+  <div class="rowcards">
+    <div class="carte">
+      <p>Combien voulez-vous convertir ?</p>
+      <input id="nombreETH" type="number" name="nombreETH" placeholder="ETH"></br>
+      <button class="button_content" onclick="conversionetheur();return false;">Convertir en €</button>
+    </div>
+    <div class="carte">
+      <p>Résultat :</p>
+      <input id="resultat" type="text" name="resultat" placeholder="0.00€" readonly="readonly">
+    </div>
+  </div>
 </form>
 </body>
 

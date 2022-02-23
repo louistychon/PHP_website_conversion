@@ -12,5 +12,5 @@
             <p>0479606831</p>
         </div>
       </div>
-      <div class="copyright">© 2022 Copyright: Louis Tychon</div>
+      <div class="copyright"><p>© 2022 Copyright: Louis Tychon</p></div>
 </footer>

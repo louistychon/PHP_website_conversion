@@ -1,4 +1,4 @@
-/*police du site*/
+/*police personnalisée du site*/
 
 @font-face {
     font-family: 'sinkin-sans';
@@ -11,14 +11,8 @@ footer{
   color:white;
   text-align:left;
   align-items: center;
-  bottom:0;
   background-color: hsl(210,8%,15%);
-  margin-top:20px;
-}
-
-.rowcards{
-  display:flex;
-  justify-content:center;
+  margin-top:auto;
 }
 
 .colfooter{
@@ -28,12 +22,11 @@ footer{
 }
 
 .copyright {
-  display:block;
-  text-align: center;
+  display:flex;
+  justify-content: center;
   color:white;
   position:center;
   bottom:0;
-  font-size:10px;
   background-color: hsl(210,8%,15%);
 }
 
@@ -41,6 +34,7 @@ footer{
 /*propriétés appliquées au header*/
 
 .container-nav{
+  font-size:20px;
   height:100px;
   padding-top:5px;
   border-bottom:1px solid grey;
@@ -76,7 +70,7 @@ a:hover{
 }
 
 /*propriétés appliquées au body et contenants des diff pages*/
-
+/*générales*/
 h1{
   color:grey;
 }
@@ -86,6 +80,10 @@ form{
   justify-content:space-around;
   flex-direction:row;
   align-items: center;
+}
+
+input.placeholder{
+  text-align: center;
 }
 
 body{
@@ -99,20 +97,27 @@ body{
   min-height: 100vh;
 }
 
-.grid{
-  display:flex;
-  flex-direction:row;
+button{
+  background-color:#4AD81C;
+  color: white;
+  border-radius:5px;
 }
 
-.content{
-  flex:1;
+.button_content{
+  padding:5px;
+  margin:15px;
 }
 
 .logo{
   width: 100px;
 }
-.profile_pic{
-  float:left;
+
+
+/*cartes page d'accueil*/
+
+.rowcards{
+  display:flex;
+  justify-content:center;
 }
 
 .carte{
@@ -130,15 +135,20 @@ body{
   max-height: 100px;
 }
 
-button{
-  background-color:#4AD81C;
-  color: white;
-  border-radius:5px;
+/*liste page à propos*/
+
+.liste{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
 }
 
-.button_content{
-  padding:5px;
-  margin:15px;
+.liste ul{
+  text-align: left;
+}
+
+.profile_pic{
+  float:left;
 }
 
 /*Slider*/
@@ -147,6 +157,7 @@ button{
   position: relative;
   width: 100%;
   margin: auto;
+  margin-top:5px;
   display: flex;
   align-items: center;
 }
