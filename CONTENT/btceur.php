@@ -1,17 +1,18 @@
 <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/header.php" ?>
 <body>
 
+<h1>Le convertisseur ultime de BTC !</h1>
+
 <p>Entrez votre nombre de Bitcoins, ce convertisseur vous donnera leur équivalent en euros.</p>
+<script src = ../JS/convertbtceur.js></script>
 
-<script src = JS/convertbtceur.js></script>
-
-  <form>
-  <input id="nombreBTC" type="number" placeholder="BTC">
-  <button class="button_content" onclick="conversionbtceur()" >Convertir en €</button>
-  </form>
-
-<p id="resultat"></p>
-
+<form>
+  <p>Combien voulez-vous convertir ?</p>
+  <input id="nombreBTC" type="number" name="nombreBTC" placeholder="BTC">
+  <button class="button_content" onclick="conversionbtceur();return false;">Convertir en €</button>
+  <p>Résultat :</p>
+  <input id="resultat" type="text" name="resultat" placeholder="0.00" readonly="readonly">
+</form>
 </body>
 
 <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>

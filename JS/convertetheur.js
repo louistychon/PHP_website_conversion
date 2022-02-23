@@ -1,8 +1,8 @@
-function conversionbtceur()
+function conversionetheur()
 {
-  let nombre = parseFloat(document.getElementById("nombreBTC").value);
+  let nombre = parseFloat(document.getElementById("nombreETH").value);
   if(nombre >= 0){
-    var total = nombre * 33385.19;
+    var total = nombre * 2333.55;
     var dec = total.toFixed(2);
   }
   else{

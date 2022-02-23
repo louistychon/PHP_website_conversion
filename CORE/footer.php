@@ -1,16 +1,16 @@
 <footer>
-        <div class="col_footer">
-          <div class="column">
+        <div class="colfooter">
+          <div class="column_footer">
+            <h3>BIENVENUE</h3>
             <p>Convertisseur de (crypto-)monnaies !</p>
-            <p>Convertissez la valeur de vos crypto-monnaies, simplement et facilement !</p>
+            <p>Convertissez la valeur de vos crypto-monnaies <br/>simplement et facilement !</p>
           </div>
-          <div class="column">
-            <p>Contact</p>
+          <div class="column_footer">
+            <h3>CONTACT</h3>
             <p>Rue Léon Théodore 223, 1090 Jette</p>
             <p>louis.tychon1@gmail.com</p>
             <p>0479606831</p>
         </div>
       </div>
-  <div class="copyright">© 2022 Copyright: Louis Tychon</div>
+      <div class="copyright">© 2022 Copyright: Louis Tychon</div>
 </footer>
-</html>
