@@ -242,10 +242,6 @@ section p{
       flex-direction: column-reverse;
     }
 
-    .container-nav{
-      border-radius:1px;
-    }
-
     .rowcards{
       flex-direction: column;
     }
@@ -273,3 +269,8 @@ section p{
   .fleche{
     display:none;
   }
+
+  .container-nav{
+    border-radius:1px;
+  }
+}
