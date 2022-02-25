@@ -3,12 +3,12 @@
 </head>
 
 <header>
-<style>
+  <style>
   @import url(/CORE/main.css);
-</style>
+  </style>
 
-<a href="/"><img class="logo" src="../img/logo.png" style="float:left;"></a>
-<p id="pdate"></p>
+  <a href="/"><img class="logo" src="../img/logo.png" style="float:left;"></a>
+  <p id="pdate"></p>
   <nav>
     <div class="container-nav">
         <ul class="navbar-list">

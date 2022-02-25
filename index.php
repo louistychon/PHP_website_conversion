@@ -1,5 +1,7 @@
 <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/header.php" ?>
+
 <body>
+  <!-- Slider + script -->
 
   <div class="slider">
     <img src="../img/slider/1.jpg" id="slide">
@@ -7,7 +9,6 @@
             <div id="suivant" onclick="ChangeSlide(1)"><img src="../img/slider/arrow_right.png" style="width:50px;"></div>
   </div>
 
-  <!-- Script slider -->
     <script>
       var slide = new Array("../img/slider/1.jpg", "../img/slider/2.jpg", "../img/slider/3.jpg");
       var numero = 0;
@@ -23,7 +24,7 @@
 
       setInterval("ChangeSlide(1)", 3000);
     </script>
-<h1>Convertisseur en ligne gratuit pour vos cryptomonnaies</h1>
+    <h1>Convertisseur en ligne gratuit pour vos cryptomonnaies</h1>
       <p>Convertissez la valeur de vos cryptomonnaies dès maintenant. Que ce soit l'ETH ou le BTC, ce site vous permet de réaliser votre conversion selon les dernier taux du marché et en toute anonymité.</p>
       <p>Sélectionnez la partie du site qui vous intéresse ci-dessous.</p>
 
@@ -44,5 +45,6 @@
   </div>
 
   <p>Ce site est en construction et représente un très gros projet, merci d'en avoir apprécié la première partie !</p>
-  </body>
-  <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>
+</body>
+
+<?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>

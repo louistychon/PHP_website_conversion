@@ -24,8 +24,6 @@ footer{
 .copyright {
   display:flex;
   justify-content: center;
-  color:white;
-  position:center;
   bottom:0;
   background-color: hsl(210,8%,15%);
 }
@@ -131,7 +129,6 @@ button{
 }
 
 .carte{
-  box-shadow:20px;
   margin-left:15px;
   margin-right:15px;
   border:1px solid #E8E8E8;
