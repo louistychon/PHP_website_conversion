@@ -75,6 +75,12 @@ h1{
   color:grey;
 }
 
+h2{
+  color:grey;
+  font-style:italic;
+
+}
+
 form{
   display:flex;
   justify-content:space-around;
@@ -82,7 +88,7 @@ form{
   align-items: center;
 }
 
-input.placeholder{
+::-webkit-input-placeholder{
   text-align: center;
 }
 
@@ -120,6 +126,10 @@ button{
   justify-content:center;
 }
 
+.fleche{
+  align-items:center;
+}
+
 .carte{
   box-shadow:20px;
   margin-left:15px;
@@ -135,20 +145,32 @@ button{
   max-height: 100px;
 }
 
-/*liste page à propos*/
 
-.liste{
+
+/*Page à propos*/
+
+section{
   display:flex;
-  flex-direction:row;
-  justify-content:space-around;
+  flex-direction:row-reverse;
+  margin-bottom:10px;
 }
 
-.liste ul{
-  text-align: left;
+section p{
+  text-align:justify;
 }
 
-.profile_pic{
-  float:left;
+.paragraphes{
+  padding: 10px;
+}
+
+.paragraphes ul{
+  text-align: justify;
+  list-style-type: "💻 ";
+}
+
+.a_propos{
+  width:200px;
+  height:200px;
 }
 
 /*Slider*/
@@ -156,7 +178,6 @@ button{
 .slider{
   position: relative;
   width: 100%;
-  margin: auto;
   margin-top:5px;
   display: flex;
   align-items: center;
@@ -191,3 +212,64 @@ button{
 #slider:hover #suivant {
     opacity: 1;
 }
+
+/*responsive media queries*/
+
+@media screen and (max-width:500px) {
+
+    nav{
+      border-style: none;
+      font-size:15px;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+    h1{
+        font-size:20px;
+    }
+
+    section{
+      flex-direction: column;
+    }
+
+    .a_propos{
+      align-self: center;
+    }
+
+    .createur{
+      flex-direction: column-reverse;
+    }
+
+    .container-nav{
+      border-radius:1px;
+    }
+
+    .rowcards{
+      flex-direction: column;
+    }
+
+    .carte{
+      margin-top:10px;
+    }
+
+    .logo{
+      Display: none;
+    }
+
+    .colfooter{
+      flex-direction: column;
+      padding:15px;
+    }
+
+    .slider{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width:630px) {
+  .fleche{
+    display:none;
+  }

@@ -13,6 +13,7 @@
       <input id="nombreETH" type="number" name="nombreETH" placeholder="ETH"></br>
       <button class="button_content" onclick="conversionetheur();return false;">Convertir en €</button>
     </div>
+    <img class="fleche" src="../img/slider/arrow_right_black.png" width="200px" height="100px" align-self="center" style="align-self: center;">
     <div class="carte">
       <p>Résultat :</p>
       <input id="resultat" type="text" name="resultat" placeholder="0.00€" readonly="readonly">

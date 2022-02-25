@@ -1,12 +1,11 @@
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
 <header>
 <style>
   @import url(/CORE/main.css);
 </style>
-<script>
-  var today = new Date();
-  var date = "Nous sommes le " + today.getDate();
-  document.getElementById("pdate").innerHTML = date;
-</script>
 
 <a href="/"><img class="logo" src="../img/logo.png" style="float:left;"></a>
 <p id="pdate"></p>

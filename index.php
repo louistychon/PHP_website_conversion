@@ -1,14 +1,13 @@
-<body>
 <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/header.php" ?>
-<meta title="Convertisseur en ligne gratuit pour vos cryptomonnaies">
-<meta description="Convertissez la valeur de vos cryptomonnaies dès maintenant avec notre convertisseur en ligne gratuit et très simple d'utilisation">
+<body>
 
-<div class="content">
   <div class="slider">
     <img src="../img/slider/1.jpg" id="slide">
             <div id="precedent" onclick="ChangeSlide(-1)"><img src="../img/slider/arrow_left.png" style="width:50px;"></div>
             <div id="suivant" onclick="ChangeSlide(1)"><img src="../img/slider/arrow_right.png" style="width:50px;"></div>
   </div>
+
+  <!-- Script slider -->
     <script>
       var slide = new Array("../img/slider/1.jpg", "../img/slider/2.jpg", "../img/slider/3.jpg");
       var numero = 0;
@@ -44,8 +43,6 @@
           </div>
   </div>
 
-    <p>Ce site est en construction et représente un très gros projet, merci d'en avoir apprécié la première partie !</p>
-
-</div>
-  <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>
+  <p>Ce site est en construction et représente un très gros projet, merci d'en avoir apprécié la première partie !</p>
   </body>
+  <?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>
