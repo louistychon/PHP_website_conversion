@@ -1,4 +1,3 @@
-<footer>
         <div class="colfooter">
           <div class="column_footer">
             <h3>BIENVENUE</h3>
@@ -13,4 +12,3 @@
         </div>
       </div>
       <div class="copyright"><p>© 2022 Copyright: Louis Tychon</p></div>
-</footer>

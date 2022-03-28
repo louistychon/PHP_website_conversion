@@ -1,13 +1,3 @@
-<head>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-</head>
-
-<header>
-  <style>
-  @import url(/CORE/main.css);
-  </style>
-
-  <a href="/"><img class="logo" src="../img/logo.png" style="float:left;"></a>
   <nav>
     <div class="container-nav">
         <ul class="navbar-list">
@@ -26,4 +16,3 @@
         </ul>
     </div>
   </nav>
-</header>

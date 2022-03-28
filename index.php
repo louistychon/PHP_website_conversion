@@ -1,9 +1,16 @@
-<?php include "$_SERVER[DOCUMENT_ROOT]/CORE/header.php" ?>
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="core/main.css">
+</head>
 <body>
-  <!-- Slider + script -->
 
-  <div class="slider">
+<?php include "$_SERVER[DOCUMENT_ROOT]/CORE/header.php" ?>
+<div class="slider">
     <img src="../img/slider/1.jpg" id="slide">
             <div id="precedent" onclick="ChangeSlide(-1)"><img src="../img/slider/arrow_left.png" style="width:50px;"></div>
             <div id="suivant" onclick="ChangeSlide(1)"><img src="../img/slider/arrow_right.png" style="width:50px;"></div>
@@ -45,6 +52,7 @@
   </div>
 
   <p>Ce site est en construction et représente un très gros projet, merci d'en avoir apprécié la première partie !</p>
+  <footer><?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?></footer>
 </body>
+</html>
 
-<?php include "$_SERVER[DOCUMENT_ROOT]/CORE/footer.php" ?>
